@@ -1,4 +1,4 @@
-@photogur = angular.module('photogur', [])
+@photogur = angular.module('photogur', ['ngResource'])
 
 @photogur.config(($routeProvider, $locationProvider) ->
 	$locationProvider.html5Mode(true)
