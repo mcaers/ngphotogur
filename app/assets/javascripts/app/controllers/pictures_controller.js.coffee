@@ -1,5 +1,5 @@
 @photogur.controller("PicturesController", ($scope) ->
-	$scope.name = "homer"
+	# $scope.name = "homer"
 
 	# console.log "Pictures Controller is Live"
 	# window.testdebug = $scope
@@ -7,8 +7,8 @@
 	# 	console.log "Name changed to #{$scope.name}"                                         
 	# 	)
 
-	$scope.isHomer = ->
-		return $scope.name == 'homer'
+	# $scope.isHomer = ->
+	# 	return $scope.name.toLowerCase() == 'homer'
 
 	$scope.pictures = [
 		{
